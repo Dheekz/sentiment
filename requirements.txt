@@ -3,6 +3,5 @@ streamlit
 numpy
 matplotlib
 nltk
-string
 nlp_id
 Sastrawi
