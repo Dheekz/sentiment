@@ -2,8 +2,6 @@ pandas
 streamlit
 numpy
 matplotlib
-re
-csv
 nltk
 string
 nlp_id
