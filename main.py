@@ -116,10 +116,9 @@ with st.expander('Analyze CSV'):
         color = ['#CDFAD5', '#F6FDC3', '#FF8080']
         name = df_clean['polarity'].unique()
         label=df_clean.polarity.value_counts()
-        explode= (0.05,0.05,0.05)
         fig1, ax1 = plt.subplots()
         text_prop = {'family':'monospace', 'fontsize':'small', 'fontweight':'light'}
-        ax1.pie(label, explode=explode, labels=name, colors=color, autopct='%1.1f%%',
+        ax1.pie(label, labels=name, colors=color, autopct='%1.1f%%',
                 shadow=False, startangle=90, textprops=text_prop)
         ax1.axis('equal')
         st.pyplot(fig1)
